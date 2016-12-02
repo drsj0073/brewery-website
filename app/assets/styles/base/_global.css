@@ -1,0 +1,72 @@
+/********************/
+/* GLOBAL */
+/********************/
+
+html, 
+body {
+  background-color: #fff;
+  color: #555;
+  font-size: 16px;
+  font-weight: 300;
+  text-rendering: optimizeLegibility;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.container {
+  max-width: 952px;
+  margin: 0 auto;
+}
+
+
+@media screen and (min-width: 800px) {
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    &--padding {
+      justify-content: space-around;
+    }
+  }
+ 
+.column {
+  flex-basis: 100%;
+  flex: 1;
+}
+
+}
+
+a {
+  text-decoration: none;
+  color: #555;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /*padding: 40px;*/
+}
+
+.large-top-m {
+  margin-top: 40px; 
+}
+
+.large-bottom-m {
+  margin-bottom: 80px; 
+}
+
+

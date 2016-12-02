@@ -1,0 +1,50 @@
+.circle  {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  	width: 410px;
+  	height: 410px;
+  	border-radius: 50%;
+  	font-size: 1.75rem;
+  	color: #555;
+  	text-align: center;
+  	margin: 0 auto;
+ 	background: #ececec;
+}
+
+
+input[type="submit"],
+input[type="text"] {
+	width: 70%;
+	display: block;
+	padding: 0 10px;
+	height: 45px;
+	margin-bottom: 10px;
+	font-family: "lato", sans-serif;
+	font-size: 1.375rem;
+	border: 1px solid #cdcdcd;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+input[type="text"]:focus {
+	box-shadow: inset 2px 2px 2px rgba(0, 0, 0, .13);
+}
+
+input[type="submit"] {
+	background-color: #48c9b0;
+	color: #fff;
+	margin-top: 25px;
+	width: 35%;
+	/* Rectangle Copy: */
+	background: #D8D8D8;
+	border: 1px solid #979797;
+	border-radius: 100px;
+	/* Submit: */
+	font-size: 1.1rem;
+	color: #4A4A4A;
+}
+
+input[type="submit"]:hover {
+	background-color: #36b99f;
+}
